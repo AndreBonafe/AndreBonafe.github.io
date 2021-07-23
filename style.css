@@ -1,0 +1,27 @@
+h1, h2, h3, h4{
+    font-family: "Sawasdee", Monospace;
+    color: #ADE8F4;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-weight: 600;
+}
+body {
+background-color: #023E8A;
+}
+hr {
+    border: 1px solid #ADE8F4;
+}
+#foto_principal {
+    border-radius: 50%;
+}
+#list_skills {
+    color: #90E0EF;
+}
+#title_skills {
+    text-align: center;
+}
+p {
+    color: #CAF0F8;
+}
