@@ -11,7 +11,11 @@ div {
 }
 
 .title {
-    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.name {
+    font-size: 35px;
 }
 
 .name, .nickname {
@@ -37,6 +41,7 @@ hr {
 
 .header {
     text-align: center;
+    margin-top: 60px;
 }
 
 #list_skills {
@@ -99,10 +104,6 @@ hr {
     margin-bottom: 20px;
 }
 
-.bottom {
-
-}
-
 .sobremim h2{
     text-align: center;
 }
@@ -110,6 +111,38 @@ hr {
 .sobremim p{
     max-width: 80%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     color: rgb(0, 9, 24);
+}
+
+.skills img{
+    width: 40%;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.skill_texts{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    color: rgb(0, 28, 85);
+    opacity: 80%;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+
+.skills {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer p {
+    float: right;
+    display: block;
+    color: rgb(0, 28, 85);
+    
 }
